@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Thirty Days</string>
+    <string name="day_1">Day 1: </string>
+    <string name="day_1_tip">Stay Focused</string>
+    <string name="day_1_desc">Always remember to stay focused on your goals to keep confidence.</string>
+    <string name="day_2">Day 2: </string>
+    <string name="day_2_tip">Make reachable goals</string>
+    <string name="day_2_desc">Keeping reachable goals for each week can help you reach your bigger goals quicker.</string>
+    <string name="expand_button_content_description">See more or less information about a tip.</string>
+</resources>
