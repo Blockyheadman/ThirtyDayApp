@@ -8,8 +8,8 @@ object Datasource {
         return listOf(
             DailyTip(R.string.day_1, R.string.day_1_tip, R.string.day_1_desc),
             DailyTip(R.string.day_2, R.string.day_2_tip, R.string.day_2_desc),
-            /*DailyTip(R.string.day_3, R.string.day_3_tip, R.string.day_3_desc),
-            DailyTip(R.string.day_4, R.string.day_4_tip, R.string.day_4_desc),
+            DailyTip(R.string.day_3, R.string.day_3_tip, R.string.day_3_desc),
+            /*DailyTip(R.string.day_4, R.string.day_4_tip, R.string.day_4_desc),
             DailyTip(R.string.day_5, R.string.day_5_tip, R.string.day_5_desc),
             DailyTip(R.string.day_6, R.string.day_6_tip, R.string.day_6_desc),
             DailyTip(R.string.day_7, R.string.day_7_tip, R.string.day_7_desc),

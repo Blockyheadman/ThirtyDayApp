@@ -6,5 +6,8 @@
     <string name="day_2">Day 2: </string>
     <string name="day_2_tip">Make reachable goals</string>
     <string name="day_2_desc">Keeping reachable goals for each week can help you reach your bigger goals quicker.</string>
+    <string name="day_3">Day 3: </string>
+    <string name="day_3_tip">Keep a clear mind</string>
+    <string name="day_3_desc">Keeping a clear mind can help to keep you thinking about what\'s important now.</string>
     <string name="expand_button_content_description">See more or less information about a tip.</string>
 </resources>

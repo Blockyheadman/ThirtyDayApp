@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -117,9 +118,13 @@ private fun ExpandTipButton(
 }
 
 @Composable
-private fun DailyTipList(tipList: List<DailyTip>, modifier: Modifier = Modifier) {
+private fun DailyTipList(
+    tipList: List<DailyTip>,
+    //modifier: Modifier = Modifier
+) {
     LazyColumn(
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top
     ) {
         items(tipList) {dailyTip ->
             DailyTipCard(dailyTip = dailyTip)
